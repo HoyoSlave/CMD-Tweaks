@@ -43,7 +43,7 @@ A lightweight, powerful performance optimization module for Android (AxManager /
 
 ## 📜 Credits & Disclaimers
 
-- Profiler credits: **@Rem01Gaming** (`t.me/rem01schannel`)
-- Developed by **@HoyoSlave** (`t.me/S_O_S_P`)
+-Profiler credits: [@Rem01Gaming](https://t.me/rem01schannel)
+-Developed by [@HoyoSlave](https://t.me/S_O_S_P)
 
 > **Disclaimer**: Use at your own risk. Disabling thermal throttling or forcing maximum CPU/GPU frequencies may cause elevated device temperatures and increased battery consumption.
