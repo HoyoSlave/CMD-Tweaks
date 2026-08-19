@@ -41,28 +41,6 @@ A lightweight, powerful performance optimization module for Android (Magisk / Ke
 
 ---
 
-## 📂 File & Directory Structure
-
-```
-/data/adb/modules/cmd_tweaks/
-├── service.sh             # Main boot script (runs background optimizations and starts loop.sh)
-├── uninstall.sh           # Reset script to revert all changes made by the module
-├── module.prop            # Module metadata
-├── charge                 # Fast charge trigger file
-├── other/
-│   ├── loop.sh            # Background daemon monitoring active apps and maintenance tasks
-│   ├── option.sh          # Handles switching system performance and multitasking profiles
-│   ├── profiler.sh        # Manages CPU/GPU sysfs frequencies, governors, and thermal limits
-│   ├── thermal.sh         # Controls thermal throttling services and battery temp overrides
-│   ├── scale.sh           # Handles Android 12+ Game Space downscaling
-│   ├── screen.sh          # Adjusts global screen size and DPI density
-│   └── unreal.sh         # Injects graphics configuration into Unreal Engine games
-└── webroot/
-    └── index.html         # WebUI interface for interactive control
-```
-
----
-
 ## 🌐 WebUI Control Panel
 
 If running via KernelSU or WebUI-supported manager:
