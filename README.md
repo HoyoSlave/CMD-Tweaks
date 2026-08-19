@@ -1,5 +1,4 @@
 # CMD-Tweaks
-![Version](https://img.shields.io/badge/Version-2608-blue.svg)
 ![Type](https://img.shields.io/badge/Optimization-AIO-success.svg)
 ![Risk](https://img.shields.io/badge/Risk-DWYOR-orange.svg)
 **CMD-Tweaks** adalah skrip optimasi sistem All-In-One (AIO) berbasis perintah terminal untuk meningkatkan performa perangkat, stabilitas jaringan, dan efisiensi sistem secara keseluruhan.
