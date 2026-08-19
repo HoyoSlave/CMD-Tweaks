@@ -1,35 +1,35 @@
 # CMD-Tweaks
 ![Type](https://img.shields.io/badge/Optimization-AIO-success.svg)
 ![Risk](https://img.shields.io/badge/Risk-DWYOR-orange.svg)
-**CMD-Tweaks** adalah skrip optimasi sistem All-In-One (AIO) berbasis perintah terminal untuk meningkatkan performa perangkat, stabilitas jaringan, dan efisiensi sistem secara keseluruhan.
-> **⚠️ DWYOR (Do With Your Own Risk):** Segala risiko akibat penggunaan skrip ini ditanggung sepenuhnya oleh pengguna. Cadangkan (backup) sistem Anda sebelum melakukan perubahan.
+**CMD-Tweaks** is an All-In-One (AIO) terminal command-based system optimization script designed to enhance device performance, network stability, and overall system efficiency.
+> **⚠️ DWYOR (Do With Your Own Risk):** You are solely responsible for any changes made to your device. Always back up your system before applying tweaks.
 ---
-## ⚡ Fitur Utama
-- **Inject Thermal Temperature** – Pengaturan ulang respons termal untuk menjaga suhu dan performa tetap seimbang.
-- **Improve System Behavior** – Optimasi manajemen memori dan respon kernel sistem.
-- **Device & Game Configuration** – Peningkatan konfigurasi khusus untuk stabilitas permainan dan performa perangkat.
-- **Stabilize Connectivity** – Optimasi jaringan untuk koneksi yang lebih stabil dan latensi rendah.
-- **Disable Logging & Tracing** – Mematikan sistem pemantauan/log latar belakang untuk menghemat sumber daya.
-- **Clean System Junk** – Membersihkan berkas sampah dan tembolok (cache) sistem.
-- **Optimize All Packages** – Melakukan optimasi dan *compilation* ulang pada seluruh paket aplikasi terpasang.
-- **Other Command Tweaks** – Berbagai penyesuaian perintah tingkat lanjut lainnya.
+## ⚡ Key Features
+- **Inject Thermal Temperature** – Tweaks thermal management to balance temperature and performance.
+- **Improve System Behavior** – Optimizes memory management and kernel response.
+- **Device & Game Configuration** – Tailored configurations for gaming stability and maximum output.
+- **Stabilize Connectivity** – Network optimizations to reduce latency and improve stability.
+- **Disable Logging & Tracing** – Disables background system telemetry and logs to conserve resources.
+- **Clean System Junk** – Removes cache, temporary files, and system junk.
+- **Optimize All Packages** – Re-compiles and optimizes all installed application packages.
+- **Other Command Tweaks** – Additional low-level system performance adjustments.
 ---
-## 🌐 Fitur Tambahan & WebUI
-Buka antarmuka web (WebUI) untuk mengakses opsi dan pengaturan tingkat lanjut yang lebih fleksibel.
+## 🌐 WebUI & Extra Options
+Open the WebUI to access additional advanced options and flexible parameters.
 ---
-## 📥 Unduhan & Proyek
-* [⬇️ Download Utama](#) *(Masukkan tautan unduhan di sini)*
-* [🔗 My Projects](#) *(Masukkan tautan portofolio/proyek di sini)*
+## 📥 Downloads & Projects
+* [⬇️ Download](#) *(Insert download link here)*
+* [🔗 My Projects](#) *(Insert project portfolio link here)*
 ---
-## ⚙️ Dukungan Pengelola Modul
-- **WebUI X**: Supported `(r)`
+## ⚙️ Module Manager Support
+- **WebUI X**: Required `(r)`
 - **AxManager**: Not Required `(nr)`
 ---
-## 🖼️ Tangkapan Layar (Screenshot)
+## 🖼️ Screenshots
 
-| Antarmuka / Tampilan CMD |
+| Interface / Terminal View |
 | :--- |
-| *(Tempelkan gambar screenshot Anda di sini)* |
+| *(Insert screenshot image link here)* |
 
 ---
-*Dikembangkan dengan ❤️ untuk performa maksimal.*
+*Crafted with ❤️ for maximum performance.*
