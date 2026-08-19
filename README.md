@@ -1,6 +1,6 @@
 # CMD Tweaks (`cmd_tweaks`)
 
-A lightweight, powerful performance optimization module for Android (Magisk / KernelSU / APatch) utilizing native Android Shell (`cmd`, `setprop`, `dumpsys`) commands and custom automation scripts to enhance gaming performance, battery efficiency, and system responsiveness.
+A lightweight, powerful performance optimization module for Android (AxManager / Magisk / KernelSU / APatch) utilizing native Android Shell (`cmd`, `setprop`, `dumpsys`) commands and custom automation scripts to enhance gaming performance, battery efficiency, and system responsiveness.
 
 ---
 
@@ -41,31 +41,9 @@ A lightweight, powerful performance optimization module for Android (Magisk / Ke
 
 ---
 
-## 🌐 WebUI Control Panel
-
-If running via KernelSU or WebUI-supported manager:
-1. Open the WebUI interface embedded in the module options.
-2. Use the tabs:
-   - **Home**: Control `./loop.sh` state, set package rules for daily vs. gaming mode, configure asset preloading, and edit the games list.
-   - **Settings**: Toggle fast charging, sensor privacy, thermal limits, Google services, doze mode, and system profiles.
-   - **Game**: Adjust global resolution sliders, game-downscale multipliers, and Unreal Engine quality levels.
-
----
-
-## 🗑️ Uninstallation
-
-Uninstalling through Magisk / KernelSU will execute `uninstall.sh` automatically upon reboot, which:
-- Resets display size, density, and downscaling settings.
-- Restores background network settings and app standby buckets.
-- Restores global settings and activity manager default parameters.
-- Re-enables system logging and thermal services.
-- Cleans up created temporary directories and scripts.
-
----
-
 ## 📜 Credits & Disclaimers
 
 - Profiler credits: **@Rem01Gaming** (`t.me/rem01schannel`)
-- Developed by **SOSP Team** (`t.me/S_O_S_P`)
+- Developed by **@HoyoSlave** (`t.me/S_O_S_P`)
 
 > **Disclaimer**: Use at your own risk. Disabling thermal throttling or forcing maximum CPU/GPU frequencies may cause elevated device temperatures and increased battery consumption.
