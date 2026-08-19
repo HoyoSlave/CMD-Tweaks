@@ -63,65 +63,6 @@ A lightweight, powerful performance optimization module for Android (Magisk / Ke
 
 ---
 
-## ⚙️ Configuration & Storage Paths
-
-The module uses `/storage/emulated/0/Android/media/.sosp/` for dynamic configuration files:
-
-| Path | Description |
-| :--- | :--- |
-| `/storage/emulated/0/Android/media/.sosp/perflist.txt` | Target package list for automatic Gaming Mode trigger |
-| `/storage/emulated/0/Android/media/.sosp/gamelist.txt` | Target package list for `scale.sh` Game Manager downscaling |
-| `/storage/emulated/0/Android/media/.sosp/settings.ini` | Stores user toggle states (`gaming`, `daily`, `disturb`, `preload`, `compile`, `thermal`, `maximum`) |
-| `/storage/emulated/0/Android/media/.sosp/sprof` | Stores current active System Profile |
-| `/storage/emulated/0/Android/media/.sosp/mtask` | Stores current active Multitasking Profile |
-| `/storage/emulated/0/Android/cmd_tweaks.log` | Execution and status log file |
-
----
-
-## 🚀 Usage & Commands
-
-### Manual Execution via Shell / Terminal
-
-If you want to run options manually from a terminal (e.g., Termux or ADB shell as root):
-
-#### 1. Change Performance / Multitasking Profiles
-```bash
-# Apply Performance mode with Lowest multitasking
-su -c /data/adb/modules/cmd_tweaks/other/option.sh performance lowest
-
-# Apply Balanced mode with Medium multitasking
-su -c /data/adb/modules/cmd_tweaks/other/option.sh balance medium
-
-# Apply Power Saver mode with Highest multitasking
-su -c /data/adb/modules/cmd_tweaks/other/option.sh powersave highest
-```
-
-#### 2. Thermal Control & Fast Charge
-```bash
-# Disable Thermal Throttling
-su -c /data/adb/modules/cmd_tweaks/other/thermal.sh disable
-
-# Enable Thermal Throttling (Default)
-su -c /data/adb/modules/cmd_tweaks/other/thermal.sh enable
-```
-
-#### 3. Unreal Engine Graphics Preset
-```bash
-# Set Unreal Engine games quality (0 = Lowest, 1 = Low, 2 = Medium, 3 = High, 4 = Ultra)
-su -c /data/adb/modules/cmd_tweaks/other/unreal.sh 2
-```
-
-#### 4. Resolution & Density Scale
-```bash
-# Scale screen resolution & DPI to 80% (0.8)
-su -c /data/adb/modules/cmd_tweaks/other/screen.sh 0.8
-
-# Reset resolution & DPI to normal
-su -c cmd window size reset && su -c cmd window density reset
-```
-
----
-
 ## 🌐 WebUI Control Panel
 
 If running via KernelSU or WebUI-supported manager:
@@ -146,7 +87,7 @@ Uninstalling through Magisk / KernelSU will execute `uninstall.sh` automatically
 
 ## 📜 Credits & Disclaimers
 
-- Shell profiler logic credits: **@Rem01Gaming** (`t.me/rem01schannel`)
-- Developed by **SOSP Team** (`t.me/S_O_S_P/1`)
+- Profiler credits: **@Rem01Gaming** (`t.me/rem01schannel`)
+- Developed by **SOSP Team** (`t.me/S_O_S_P`)
 
 > **Disclaimer**: Use at your own risk. Disabling thermal throttling or forcing maximum CPU/GPU frequencies may cause elevated device temperatures and increased battery consumption.
