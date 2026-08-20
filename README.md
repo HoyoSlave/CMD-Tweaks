@@ -3,10 +3,6 @@
   
   <br>
 
-  <h1>✨ Stellar Tweaks</h1>
-
-  <br>
-
   <a href="https://t.me/hosshi_prjkt">
     <img src="https://img.shields.io/badge/Telegram-Channel-26A5E4?style=flat-square&logo=telegram&logoColor=white">
   </a>
@@ -50,26 +46,6 @@ Stellar utilizes an intelligent engine to switch between three distinct modes ba
 
 **Experience the Next-Gen Interface.**
 Powered by **Material You (MD3)** technology, the Stellar WebUI offers a sleek, adaptive, and modern control panel. Designed for clarity and aesthetics, it makes complex system tuning intuitive and visually stunning.
-
-### Root Environment
-<div align="center">
-  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/root/Screenshot_20260125_184447_WebUI%20X.jpg" width="30%" style="border-radius: 6px; margin: 3px;">
-  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/root/Screenshot_20260125_184139_WebUI%20X.jpg" width="30%" style="border-radius: 6px; margin: 3px;">
-  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/root/Screenshot_20260125_184120_WebUI%20X.jpg" width="30%" style="border-radius: 6px; margin: 3px;">
-  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/root/Screenshot_20260125_184106_WebUI%20X.jpg" width="30%" style="border-radius: 6px; margin: 3px;">
-  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/root/Screenshot_20260125_184058_WebUI%20X.jpg" width="30%" style="border-radius: 6px; margin: 3px;">
-</div>
-
-<br>
-
-### Non-Root Environment
-<div align="center">
-  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091656_AxManager.jpg" width="30%" style="border-radius: 6px; margin: 3px;">
-  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091649_AxManager.jpg" width="30%" style="border-radius: 6px; margin: 3px;">
-  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091706_AxManager.jpg" width="30%" style="border-radius: 6px; margin: 3px;">
-  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091726_AxManager.jpg" width="30%" style="border-radius: 6px; margin: 3px;">
-  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091719_AxManager.jpg" width="30%" style="border-radius: 6px; margin: 3px;">
-</div>
 
 ---
 
