@@ -10,4 +10,4 @@ Profiler credits: [@Rem01Gaming](https://t.me/rem01schannel)
 
 Developed by [@HoyoSlave](https://t.me/S_O_S_P) with Members
 
-> **Disclaimer**: Use at your own risk. Disabling thermal throttling or forcing maximum CPU/GPU frequencies may cause elevated device temperatures and increased battery consumption.
+> **Disclaimer**: DWYOR (Do With Your Own Risk)
