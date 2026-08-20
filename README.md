@@ -1,13 +1,53 @@
-# CMD-Tweaks
+<div align="center">
 
-A lightweight, powerful performance optimization module for Android (AxManager / Magisk / KernelSU / APatch) utilizing native Android Shell (`cmd`, `setprop`, `dumpsys`) commands and custom automation scripts to enhance gaming performance, battery efficiency, and system responsiveness.
+# 🚀 CMD Tweaks Module
+> **Advanced Performance, Gaming, & System Optimization for Android (KernelSU / Magisk)**
+
+[![KernelSU](https://img.shields.io/badge/KernelSU-Supported-blue?style=for-the-badge&logo=android)](https://kernelsu.org)
+[![Magisk](https://img.shields.io/badge/Magisk-Supported-orange?style=for-the-badge&logo=magisk)](https://github.com/topjohnwu/Magisk)
+[![Platform](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)](https://www.android.com)
+
+</div>
 
 ---
 
-## 📜 Credits & Disclaimers
+## 📌 About Module
+**CMD Tweaks** is an advanced performance and system management module designed to dynamically optimize daily use and gaming experiences. It features deep system controls, resolution changers, graphics management, and automation scripts.
 
-Profiler credits: [@Rem01Gaming](https://t.me/rem01schannel)
+---
 
-Developed by [@HoyoSlave](https://t.me/S_O_S_P) with Members
+## ✨ Main Features
 
-> **Disclaimer**: Do With Your Own Risk
+### 🏠 1. Home & Automation (`./loop.sh`)
+* **Start/Stop `./loop.sh`:** Starts or stops shell-ascend (auto adapts to daily or gaming use).
+* **Auto Game Preload:** Preload game assets into memory for faster loading and rendering.
+* **Enable Don't Disturb:** Mute incoming calls and notifications for an immersive experience.
+* **Use Dalvik Compile:** Running every 3 AM to improve performance and system efficiency.
+
+### ⚙️ 2. System & Settings Profiles
+* **System Profiles:**
+  * 🚀 *Performance:* Favors performance (*Disable Thermal option* to unlimit performance while overheating).
+  * ⚖️ *Balanced:* Balances performance with energy usage.
+  * 🔋 *Power Saver:* Saves energy while reducing performance (*Maximum Refresh Rate option* to unlimit 60Hz in power saver).
+* **Multitasking Profiles:** Control how apps can run in the background (*Higher* to *Lowest* memory usage).
+* **Root & System Tweaks:**
+  * **[root] Fast Charging:** Disables thermal services automatically when charging.
+  * **Disable Device Sensors:** Disables gyroscope, camera, etc. to reduce CPU load.
+  * **Disable Google Protect:** Disables daily scanning and protection.
+  * **Disable Google Services:** Disables Google account, contacts, etc. to reduce memory usage.
+  * **Disable Network Stats:** Disables network statistics to increase download speed.
+  * **Enable Data Saver & Doze Mode:** Restricts background data and activity.
+  * **KILL USER APPS:** Force closes all user apps to free up memory.
+
+### 🎮 3. Game & Graphics Management
+* **Global Scale:** Overall resolution changer for better performance or screen sensitivity.
+* **Game Manager (A12+):** Games resolution changer.
+* **Renderer (Graphics Engine):** Selects the rendering backend (Default, SkiaGL, SkiaVK).
+* **Angle (OpenGL ES Driver):** Translates OpenGL ES to Vulkan API.
+* **Unreal Engine Configs:** Adjust Unreal Engine graphics and recompile to fix rendering issues.
+
+---
+
+## 💡 Support & Community
+You can support us by joining our channel:
+👉 [Join Telegram Channel](https://t.me/S_O_S_P/1)
