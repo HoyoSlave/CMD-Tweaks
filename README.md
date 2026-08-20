@@ -37,5 +37,5 @@ Stellar Tweaks is designed to be versatile, supporting both Rooted and Non-Roote
 
 | Environment | Recommended WebUI |
 | :--- | :--- |
-| **Root** | KsuWebUI |
-| **Non-Root** | • AxManager |
+| **Root** | [KsuWebUI](https://github.com/KOWX712/KsuWebUIStandalone/releases) |
+| **Non-Root** | [AxManager](https://github.com/fahrez182/AxManager/releases) |
