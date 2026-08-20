@@ -1,4 +1,4 @@
-# CMD Tweaks (`cmd_tweaks`)
+# CMD-Tweaks
 
 A lightweight, powerful performance optimization module for Android (AxManager / Magisk / KernelSU / APatch) utilizing native Android Shell (`cmd`, `setprop`, `dumpsys`) commands and custom automation scripts to enhance gaming performance, battery efficiency, and system responsiveness.
 
