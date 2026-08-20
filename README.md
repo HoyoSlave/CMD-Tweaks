@@ -20,9 +20,9 @@
 Designed to optimize Android devices at the system and kernel levels by utilizing the `cmd` and `dumpsys` utilities, and adjusting the `devfreq` kernel subsystem.
 
 ### WebUI Capabilities
-* **Starts or Stops ./loop.sh:** Auto adapts to daily or gaming use
-  * Start ./loop.sh: start shell-ascend
-  * Stop ./loop.sh: stop shell-ascend
+* **Starts or Stops `./loop.sh`:** Auto adapts to daily or gaming use
+  * Start `./loop.sh`: start shell-ascend
+  * Stop `./loop.sh`: stop shell-ascend
   * Auto Game Preload: preload game assets into memory *faster loading and rendering
   * Enable Don't Disturb: mute incoming calls and notification *immersive experience
   * Use Dalvik Compile: running every 3am *improve performance and system efficiency
