@@ -31,56 +31,11 @@ Stellar provides granular control over system parameters through its active daem
 * **I/O Scheduler Custom:** Tuned I/O priorities to reduce latency during heavy workloads.
 * **Governor Custom:** Optimization of CPU governor parameters for efficient step-scaling.
 
-### Basic AI Driven 3 Profiler
-Stellar utilizes an intelligent engine to switch between three distinct modes based on real-time context:
-
-1.  **GAMING**
-    * Engages a deterministic performance envelope. Prioritizes consistent GPU/CPU throughput, enforces thread-priority policies, and manages thermal headroom to eliminate performance volatility.
-2.  **POWERSAVER**
-    * Implements aggressive non-critical process suspension and fine-grained clock gating. Maximizes battery longevity by enforcing strict QoS (Quality of Service) tiers on background subsystems.
-3.  **BALANCE**
-    * Utilizes a predictive, on-demand scaling architecture. Operates at a minimal power floor, then performs instantaneous, workload-aware frequency and core allocation to meet demand spikes without hysteresis.
----
-
-## UI Preview
-
-**Experience the Next-Gen Interface.**
-Powered by **Material You (MD3)** technology, the Stellar WebUI offers a sleek, adaptive, and modern control panel. Designed for clarity and aesthetics, it makes complex system tuning intuitive and visually stunning.
-
----
-
 ## Supported Environments
 
 Stellar Tweaks is designed to be versatile, supporting both Rooted and Non-Rooted environments with varying degrees of control.
 
-| Environment | Supported Managers | Capability Level |
-| :--- | :--- | :--- |
-| **Root** | • KernelSU (Recommended)<br>• Magisk<br>• APatch | **Full Control**<br>(Direct Kernel access, DVFS, I/O, Governors, Bypass Charging) |
-| **Non-Root** | • Axeron Manager | **Regular Optimization**<br>(AI Engine, Device Configuration, System Properties) |
-
----
-
-## Installation
-
-1.  **Download** the latest release from the [Releases Page](https://github.com/kanaodnd/Stellar-Tweaks/releases).
-2.  **Install** via your preferred manager:
-    * *Rooted/Unrooted User:* Flash the `.zip` file in Manager app.
-3.  **Reboot (For Rooted Only)** your device to initialize the daemon.
-4.  **Access** the dashboard via Manager interface to configure your preference.
-
----
-
-## Community & Support
-
-* **Bug Reports:** Please submit issues via [GitHub Issues](https://github.com/kanaodnd/Stellar-Tweaks/issues).
-* **Discussion:** Join our Telegram group for support and feature requests.
-
-<div align="center">
-
-**If this project has been helpful to you, consider giving it a star ⭐**
-
-<p align="center">
-  <code>✦ "From me, to you, years from now." ✦</code>
-</p>
-
-</div>
+| Environment | Recommended WebUI |
+| :--- | :--- |
+| **Root** | KsuWebUI |
+| **Non-Root** | • AxManager |
