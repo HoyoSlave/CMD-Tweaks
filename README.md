@@ -62,6 +62,7 @@ Designed to optimize Android devices at the system level. By utilizing Android's
 ## Supported Environments
 
 CMD-Tweaks supporting both
+
 Rooted and Non-Rooted environments.
 
 | Environment | Recommended |
