@@ -1,7 +1,7 @@
 <div align="center">
 
 # CMD Tweaks Module
-> **Advanced Performance, Gaming, & System Optimization for Android
+> **Advanced Performance, Gaming, & System Optimization for Android**
 
 [![AxManager](https://img.shields.io/badge/AxManager-Supported-blue?style=flat&logo=android)](https://github.com/fahrez182/AxManager) [![Magisk](https://img.shields.io/badge/Magisk-Supported-blue?style=flat&logo=android)](https://github.com/topjohnwu/Magisk) [![KernelSU](https://img.shields.io/badge/KernelSU-Supported-blue?style=flat&logo=android)](https://github.com/tiann/KernelSU) [![APatch](https://img.shields.io/badge/APatch-Supported-blue?style=flat&logo=android)](https://github.com/bmax121/APatch)
 
