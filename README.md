@@ -6,7 +6,7 @@
   <h1>CMD Tweaks</h1>
   <i>A another kernel scheduler for Balancing you need, feel a harmony melody. Stellar Stellar~</i>
   
-  <br>
+  <br><br>
 
   <a href="https://t.me/S_O_S_P">
     <img src="https://img.shields.io/badge/Telegram-Channel-26A5E4?style=flat-square&logo=telegram&logoColor=white">
