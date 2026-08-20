@@ -3,12 +3,12 @@
   
   <br>
 
-  <a href="https://t.me/hosshi_prjkt">
+  <a href="https://t.me/S_O_S_P">
     <img src="https://img.shields.io/badge/Telegram-Channel-26A5E4?style=flat-square&logo=telegram&logoColor=white">
   </a>
   &nbsp;
-  <a href="https://t.me/hosshi_chat">
-    <img src="https://img.shields.io/badge/Telegram-Group-26A5E4?style=flat-square&logo=telegram&logoColor=white">
+  <a href="https://t.me/HoyoSlave">
+    <img src="https://img.shields.io/badge/Telegram-Account-26A5E4?style=flat-square&logo=telegram&logoColor=white">
   </a>
 
 </div>
