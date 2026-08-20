@@ -17,7 +17,7 @@
 
 ## 〄 CMD-Tweaks
 
-all-in-one shell script designed to optimize Android devices at the system level. By utilizing Android's built-in `cmd` and `dumpsys` utilities.
+Designed to optimize Android devices at the system level. By utilizing Android's built-in `cmd` and `dumpsys` utilities.
 
 ### Core Capabilities
 * **Kernel Tweaking Universal:** Adaptive parameter adjustments compatible with a wide range of kernels and Android versions.
