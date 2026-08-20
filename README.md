@@ -1,71 +1,45 @@
-<div align="center">
+# Shell-Ascend Optimization Tool
 
-# CMD Tweaks Module
-> **Advanced Performance, Gaming, & System Optimization for Android**
+Welcome to the Shell-Ascend Optimizer. This tool provides advanced system tuning, graphics configuration, and resource management to adapt your device for both daily usage and intensive gaming. 
 
-[![AxManager](https://img.shields.io/badge/AxManager-Supported-blue?style=for-the-badge&logo=android)](https://github.com/fahrez182/AxManager)
-[![Magisk](https://img.shields.io/badge/Magisk-Supported-blue?style=for-the-badge&logo=android)](https://github.com/topjohnwu/Magisk)
-[![KernelSU](https://img.shields.io/badge/KernelSU-Supported-blue?style=for-the-badge&logo=android)](https://github.com/tiann/KernelSU)
-[![APatch](https://img.shields.io/badge/APatch-Supported-blue?style=for-the-badge&logo=android)](https://github.com/bmax121/APatch)
+## 🚀 Core Automation & Background Scripts
 
-</div>
+The `./loop.sh` script automatically adapts your device's behavior based on your current usage.
 
----
+| Feature | Description | Benefit |
+| :--- | :--- | :--- |
+| **Start / Stop** | Initializes or terminates `shell-ascend`. | Auto-adapts seamlessly to daily or gaming use. |
+| **Auto Game Preload** | Preloads required game assets directly into memory. | Significantly faster loading and rendering times. |
+| **Do Not Disturb** | Suppresses incoming calls and notifications. | Provides an uninterrupted, immersive experience. |
+| **Dalvik Compile** | Automates compilation routines every day at 3:00 AM. | Improves overall app performance and system efficiency. |
 
-## About Module
-**CMD Tweaks** is an advanced performance and system management module designed to dynamically optimize daily use and gaming experiences. It features deep system controls, resolution changers, graphics management, and automation scripts.
+## ⚙️ System Tweaks & Resource Management
 
----
+These toggles allow you to aggressively manage system services to prioritize foreground performance and network stability.
 
-## Main Features
+| Service | Description & Usage |
+| :--- | :--- |
+| **[Root] Fast Charging** | Disables thermal limits. *Usage: Turn on, wait 5 seconds, then plug in the charger. Auto-disables when unplugged.* |
+| **Sensors & Protect** | Disables device sensors (gyroscope, camera) and Google Protect daily scanning to reduce CPU overhead. |
+| **Network & Data** | Disables network stats to increase download speeds. Enables Data Saver to stabilize connections for the active app. |
+| **Doze Mode** | Restricts background activity to reduce idle memory usage. |
+| ⚠️ **Disable Google Services** | Disables Google accounts, contacts, and sync to save memory. *(Note: Ensure your contacts are synced before enabling).* |
+| ⚠️ **Kill User Apps** | Force-closes all active and cached user apps to instantly free up RAM. |
 
-### 1. Home & Automation (`./loop.sh`)
-* **Start/Stop `./loop.sh`:**
-  Starts or stops shell-ascend (auto adapts to daily or gaming use).
-* **Auto Game Preload:**
-  Preload game assets into memory for faster loading and rendering.
-* **Enable Don't Disturb:**
-  Mute incoming calls and notifications for an immersive experience.
-* **Use Dalvik Compile:**
-  Running every 3 AM to improve performance and system efficiency.
+## 🔋 System & Multitasking Profiles
 
-### 2. System & Settings Profiles
-* **System Profiles:**
-  * *Performance:* Favors performance (*Disable Thermal option* to unlimit performance while overheating).
-  * *Balanced:* Balances performance with energy usage.
-  * *Power Saver:* Saves energy while reducing performance (*Maximum Refresh Rate option* to unlimit 60Hz in power saver).
-* **Multitasking Profiles:**
-  Control how apps can run in the background (*Higher* to *Lowest* memory usage).
-* **Root & System Tweaks:**
-  * **[root] Fast Charging:**
-    Disables thermal services automatically when charging.
-  * **Disable Device Sensors:**
-    Disables gyroscope, camera, etc. to reduce CPU load.
-  * **Disable Google Protect:**
-    Disables daily scanning and protection.
-  * **Disable Google Services:**
-    Disables Google account, contacts, etc. to reduce memory usage.
-  * **Disable Network Stats:**
-    Disables network statistics to increase download speed.
-  * **Enable Data Saver & Doze Mode:**
-    Restricts background data and activity.
-  * **KILL USER APPS:**
-    Force closes all user apps to free up memory.
+Configure how the Android system handles CPU scaling, thermal throttling, and background app limits.
 
-### 3. Game & Graphics Management
-* **Global Scale:**
-  Overall resolution changer for better performance or screen sensitivity.
-* **Game Manager (A12+):**
-  Games resolution changer.
-* **Renderer (Graphics Engine):**
-  Selects the rendering backend (Default, SkiaGL, SkiaVK).
-* **Angle (OpenGL ES Driver):**
-  Translates OpenGL ES to Vulkan API.
-* **Unreal Engine Configs:**
-  Adjust Unreal Engine graphics and recompile to fix rendering issues.
+*   **Performance:** Maximizes hardware output at the cost of higher battery consumption. Includes an experimental **Disable Thermal** flag to prevent throttling when the device overheats.
+*   **Balanced:** Standardizes the ratio between performance and energy efficiency.
+*   **Power Saver:** Reduces overall performance to maximize battery life. Includes an override for **Maximum Refresh Rate** to force 60Hz UI smoothness even in low-power states.
+*   **Multitasking Capacity:** Toggle between **Higher** (keeps more apps alive in the background) or **Lower** (aggressively kills background apps to preserve memory).
 
----
+## 🎮 Graphics & Rendering Optimization
 
-## Support & Community
-You can support us by joining our channel:
-[Join Telegram Channel](https://t.me/S_O_S_P/1)
+Fine-tune how your GPU renders UI elements and 3D applications.
+
+*   **Graphics Renderer:** Override the system default. Choose **SkiaGL** for better compatibility on older devices, or **SkiaVK** for superior performance on modern hardware.
+*   **Angle (OpenGL ES):** Translates legacy OpenGL ES calls into the Vulkan API for smoother frame pacing.
+*   **Resolution Scaling:** Adjust the **Global Scale** or **Game Manager (Android 12+)** to *Lower* (boosts framerates) or *Higher* (increases screen sharpness and sensitivity).
+*   **Unreal Engine Configs:** Force UE-based games into lower/higher graphical fidelity, or trigger a **Recompile** to fix visual rendering glitches.
