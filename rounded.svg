@@ -1,8 +1,0 @@
-<svg viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <clipPath id="roundCorner">
-      <rect x="0" y="0" width="1000" height="500" rx="40" ry="40" />
-    </clipPath>
-  </defs>
-  <image width="1000" height="500" clip-path="url(#roundCorner)" href="https://raw.githubusercontent.com/HoyoSlave/hoyoslave.github.io/refs/heads/main/Pictures/cmd.jpg" />
-</svg>
