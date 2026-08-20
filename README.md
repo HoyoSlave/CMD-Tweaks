@@ -3,9 +3,10 @@
 # CMD Tweaks Module
 > **Advanced Performance, Gaming, & System Optimization for Android (KernelSU / Magisk)**
 
-[![KernelSU](https://img.shields.io/badge/KernelSU-Supported-blue?style=for-the-badge&logo=android)](https://kernelsu.org)
-[![Magisk](https://img.shields.io/badge/Magisk-Supported-orange?style=for-the-badge&logo=magisk)](https://github.com/topjohnwu/Magisk)
-[![Platform](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)](https://www.android.com)
+[![AxManager](https://img.shields.io/badge/KernelSU-Supported-blue?style=for-the-badge&logo=android)](https://github.com/fahrez182/AxManager)
+[![Magisk](https://img.shields.io/badge/KernelSU-Supported-blue?style=for-the-badge&logo=android)](https://github.com/topjohnwu/Magisk)
+[![KernelSU](https://img.shields.io/badge/KernelSU-Supported-blue?style=for-the-badge&logo=android)](https://github.com/tiann/KernelSU)
+[![APatch](https://img.shields.io/badge/KernelSU-Supported-blue?style=for-the-badge&logo=android)](https://github.com/bmax121/APatch)
 
 </div>
 
