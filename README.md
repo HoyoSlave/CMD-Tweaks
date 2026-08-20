@@ -26,7 +26,7 @@ Designed to optimize Android devices at the system level. By utilizing Android's
   * Auto Game Preload: preload game assets into memory *faster loading and rendering
   * Enable Don't Disturb: mute incoming calls and notification *immersive experience
   * Use Dalvik Compile: running every 3am *improve performance and system efficiency
-* **[root] Fast Charging:** Disabling thermal services. turn it on, wait 5 seconds, plug in the charger. will automatically turn off if the charger is unplugged.
+* **[root] Fast Charging:** Disabling thermal services. turn it on, wait 5 seconds, plug in the charger.
 * **Disable Device Sensors:** Disabling gyroscope, camera, etc. reduce cpu load.
 * **Disable Google Protect:** Disabling daily scanning and protection. reduce cpu load.
 * **Disable Google Services:** Disabling google account, contact, etc. reduce memory usage *sync your contact.
