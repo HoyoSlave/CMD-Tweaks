@@ -1,45 +1,119 @@
-# Shell-Ascend Optimization Tool
+<div align="center">
+  <img src="https://raw.githubusercontent.com/HoyoSlave/hoyoslave.github.io/refs/heads/main/Pictures/cmd.jpg" width="100%" style="border-radius: 8px;">
+  
+  <br>
 
-Welcome to the Shell-Ascend Optimizer. This tool provides advanced system tuning, graphics configuration, and resource management to adapt your device for both daily usage and intensive gaming. 
+  <h1>✨ Stellar Tweaks</h1>
+  <i>A another kernel scheduler for Balancing you need, feel a harmony melody. Stellar Stellar~</i>
+  
+  <br><br>
 
-## 🚀 Core Automation & Background Scripts
+  <a href="https://github.com/kanaodnd/Stellar-Tweaks/releases">
+    <img src="https://img.shields.io/github/v/release/kanaodnd/Stellar-Tweaks?style=flat-square&color=7050ff&label=Release">
+  </a>
+  &nbsp;
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-Apache_2.0-blue?style=flat-square&color=007bff">
+  </a>
+  &nbsp;
+  <a href="https://t.me/hosshi_prjkt">
+    <img src="https://img.shields.io/badge/Telegram-Channel-26A5E4?style=flat-square&logo=telegram&logoColor=white">
+  </a>
+  &nbsp;
+  <a href="https://t.me/hosshi_chat">
+    <img src="https://img.shields.io/badge/Telegram-Group-26A5E4?style=flat-square&logo=telegram&logoColor=white">
+  </a>
 
-The `./loop.sh` script automatically adapts your device's behavior based on your current usage.
+</div>
 
-| Feature | Description | Benefit |
+---
+
+## What "Stellar" about?
+
+**Stellar Tweaks** is a sophisticated scheduler designed to harmonize device performance and efficiency. Built with a **Rust**, it operates silently in the background to manage system resources dynamically. Unlike static scripts, Stellar adapts to your usage patterns in real-time, offering a balance between raw power and battery longevity across various SoC platforms (Snapdragon, MediaTek, Exynos, Unisoc).
+
+## Main Features
+
+Stellar provides granular control over system parameters through its active daemon and modern WebUI interface.
+
+### Core Capabilities
+* **Kernel Tweaking Universal:** Adaptive parameter adjustments compatible with a wide range of kernels and Android versions.
+* **CPU/GPU Clocking:** Dynamic frequency management to prevent throttling and ensure stability.
+* **Specific Device System Constant:** Optimized property values tailored for system responsiveness.
+* **DVFS Custom Rule:** Userspace-controlled Dynamic Voltage and Frequency Scaling for precise thermal and performance management.
+* **I/O Scheduler Custom:** Tuned I/O priorities to reduce latency during heavy workloads.
+* **Governor Custom:** Optimization of CPU governor parameters for efficient step-scaling.
+
+### Basic AI Driven 3 Profiler
+Stellar utilizes an intelligent engine to switch between three distinct modes based on real-time context:
+
+1.  **GAMING**
+    * Engages a deterministic performance envelope. Prioritizes consistent GPU/CPU throughput, enforces thread-priority policies, and manages thermal headroom to eliminate performance volatility.
+2.  **POWERSAVER**
+    * Implements aggressive non-critical process suspension and fine-grained clock gating. Maximizes battery longevity by enforcing strict QoS (Quality of Service) tiers on background subsystems.
+3.  **BALANCE**
+    * Utilizes a predictive, on-demand scaling architecture. Operates at a minimal power floor, then performs instantaneous, workload-aware frequency and core allocation to meet demand spikes without hysteresis.
+---
+
+## UI Preview
+
+**Experience the Next-Gen Interface.**
+Powered by **Material You (MD3)** technology, the Stellar WebUI offers a sleek, adaptive, and modern control panel. Designed for clarity and aesthetics, it makes complex system tuning intuitive and visually stunning.
+
+### Root Environment
+<div align="center">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/root/Screenshot_20260125_184447_WebUI%20X.jpg" width="30%" style="border-radius: 6px; margin: 3px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/root/Screenshot_20260125_184139_WebUI%20X.jpg" width="30%" style="border-radius: 6px; margin: 3px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/root/Screenshot_20260125_184120_WebUI%20X.jpg" width="30%" style="border-radius: 6px; margin: 3px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/root/Screenshot_20260125_184106_WebUI%20X.jpg" width="30%" style="border-radius: 6px; margin: 3px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/root/Screenshot_20260125_184058_WebUI%20X.jpg" width="30%" style="border-radius: 6px; margin: 3px;">
+</div>
+
+<br>
+
+### Non-Root Environment
+<div align="center">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091656_AxManager.jpg" width="30%" style="border-radius: 6px; margin: 3px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091649_AxManager.jpg" width="30%" style="border-radius: 6px; margin: 3px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091706_AxManager.jpg" width="30%" style="border-radius: 6px; margin: 3px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091726_AxManager.jpg" width="30%" style="border-radius: 6px; margin: 3px;">
+  <img src="https://github.com/kanaodnd/Stellar-Tweaks/raw/main/screenshot/nonroot/Screenshot_20260124_091719_AxManager.jpg" width="30%" style="border-radius: 6px; margin: 3px;">
+</div>
+
+---
+
+## Supported Environments
+
+Stellar Tweaks is designed to be versatile, supporting both Rooted and Non-Rooted environments with varying degrees of control.
+
+| Environment | Supported Managers | Capability Level |
 | :--- | :--- | :--- |
-| **Start / Stop** | Initializes or terminates `shell-ascend`. | Auto-adapts seamlessly to daily or gaming use. |
-| **Auto Game Preload** | Preloads required game assets directly into memory. | Significantly faster loading and rendering times. |
-| **Do Not Disturb** | Suppresses incoming calls and notifications. | Provides an uninterrupted, immersive experience. |
-| **Dalvik Compile** | Automates compilation routines every day at 3:00 AM. | Improves overall app performance and system efficiency. |
+| **Root** | • KernelSU (Recommended)<br>• Magisk<br>• APatch | **Full Control**<br>(Direct Kernel access, DVFS, I/O, Governors, Bypass Charging) |
+| **Non-Root** | • Axeron Manager | **Regular Optimization**<br>(AI Engine, Device Configuration, System Properties) |
 
-## ⚙️ System Tweaks & Resource Management
+---
 
-These toggles allow you to aggressively manage system services to prioritize foreground performance and network stability.
+## Installation
 
-| Service | Description & Usage |
-| :--- | :--- |
-| **[Root] Fast Charging** | Disables thermal limits. *Usage: Turn on, wait 5 seconds, then plug in the charger. Auto-disables when unplugged.* |
-| **Sensors & Protect** | Disables device sensors (gyroscope, camera) and Google Protect daily scanning to reduce CPU overhead. |
-| **Network & Data** | Disables network stats to increase download speeds. Enables Data Saver to stabilize connections for the active app. |
-| **Doze Mode** | Restricts background activity to reduce idle memory usage. |
-| ⚠️ **Disable Google Services** | Disables Google accounts, contacts, and sync to save memory. *(Note: Ensure your contacts are synced before enabling).* |
-| ⚠️ **Kill User Apps** | Force-closes all active and cached user apps to instantly free up RAM. |
+1.  **Download** the latest release from the [Releases Page](https://github.com/kanaodnd/Stellar-Tweaks/releases).
+2.  **Install** via your preferred manager:
+    * *Rooted/Unrooted User:* Flash the `.zip` file in Manager app.
+3.  **Reboot (For Rooted Only)** your device to initialize the daemon.
+4.  **Access** the dashboard via Manager interface to configure your preference.
 
-## 🔋 System & Multitasking Profiles
+---
 
-Configure how the Android system handles CPU scaling, thermal throttling, and background app limits.
+## Community & Support
 
-*   **Performance:** Maximizes hardware output at the cost of higher battery consumption. Includes an experimental **Disable Thermal** flag to prevent throttling when the device overheats.
-*   **Balanced:** Standardizes the ratio between performance and energy efficiency.
-*   **Power Saver:** Reduces overall performance to maximize battery life. Includes an override for **Maximum Refresh Rate** to force 60Hz UI smoothness even in low-power states.
-*   **Multitasking Capacity:** Toggle between **Higher** (keeps more apps alive in the background) or **Lower** (aggressively kills background apps to preserve memory).
+* **Bug Reports:** Please submit issues via [GitHub Issues](https://github.com/kanaodnd/Stellar-Tweaks/issues).
+* **Discussion:** Join our Telegram group for support and feature requests.
 
-## 🎮 Graphics & Rendering Optimization
+<div align="center">
 
-Fine-tune how your GPU renders UI elements and 3D applications.
+**If this project has been helpful to you, consider giving it a star ⭐**
 
-*   **Graphics Renderer:** Override the system default. Choose **SkiaGL** for better compatibility on older devices, or **SkiaVK** for superior performance on modern hardware.
-*   **Angle (OpenGL ES):** Translates legacy OpenGL ES calls into the Vulkan API for smoother frame pacing.
-*   **Resolution Scaling:** Adjust the **Global Scale** or **Game Manager (Android 12+)** to *Lower* (boosts framerates) or *Higher* (increases screen sharpness and sensitivity).
-*   **Unreal Engine Configs:** Force UE-based games into lower/higher graphical fidelity, or trigger a **Recompile** to fix visual rendering glitches.
+<p align="center">
+  <code>✦ "From me, to you, years from now." ✦</code>
+</p>
+
+</div>
