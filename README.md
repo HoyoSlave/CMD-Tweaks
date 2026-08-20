@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="rounded.svg" width="100%">
-
+  <img src="https://raw.githubusercontent.com/HoyoSlave/hoyoslave.github.io/refs/heads/main/Pictures/cmd.jpg" width="100%" style="border-radius: 8px;">
   
   <br>
 
