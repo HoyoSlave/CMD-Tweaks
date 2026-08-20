@@ -10,4 +10,4 @@ Profiler credits: [@Rem01Gaming](https://t.me/rem01schannel)
 
 Developed by [@HoyoSlave](https://t.me/S_O_S_P) with Members
 
-> **Disclaimer**: DWYOR (Do With Your Own Risk)
+> **Disclaimer**: Do With Your Own Risk
