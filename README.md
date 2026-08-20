@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 CMD Tweaks Module
+# CMD Tweaks Module
 > **Advanced Performance, Gaming, & System Optimization for Android (KernelSU / Magisk)**
 
 [![KernelSU](https://img.shields.io/badge/KernelSU-Supported-blue?style=for-the-badge&logo=android)](https://kernelsu.org)
@@ -11,24 +11,24 @@
 
 ---
 
-## 📌 About Module
+## About Module
 **CMD Tweaks** is an advanced performance and system management module designed to dynamically optimize daily use and gaming experiences. It features deep system controls, resolution changers, graphics management, and automation scripts.
 
 ---
 
-## ✨ Main Features
+## Main Features
 
-### 🏠 1. Home & Automation (`./loop.sh`)
+### 1. Home & Automation (`./loop.sh`)
 * **Start/Stop `./loop.sh`:** Starts or stops shell-ascend (auto adapts to daily or gaming use).
 * **Auto Game Preload:** Preload game assets into memory for faster loading and rendering.
 * **Enable Don't Disturb:** Mute incoming calls and notifications for an immersive experience.
 * **Use Dalvik Compile:** Running every 3 AM to improve performance and system efficiency.
 
-### ⚙️ 2. System & Settings Profiles
+### 2. System & Settings Profiles
 * **System Profiles:**
-  * 🚀 *Performance:* Favors performance (*Disable Thermal option* to unlimit performance while overheating).
-  * ⚖️ *Balanced:* Balances performance with energy usage.
-  * 🔋 *Power Saver:* Saves energy while reducing performance (*Maximum Refresh Rate option* to unlimit 60Hz in power saver).
+  * *Performance:* Favors performance (*Disable Thermal option* to unlimit performance while overheating).
+  * *Balanced:* Balances performance with energy usage.
+  * *Power Saver:* Saves energy while reducing performance (*Maximum Refresh Rate option* to unlimit 60Hz in power saver).
 * **Multitasking Profiles:** Control how apps can run in the background (*Higher* to *Lowest* memory usage).
 * **Root & System Tweaks:**
   * **[root] Fast Charging:** Disables thermal services automatically when charging.
@@ -39,7 +39,7 @@
   * **Enable Data Saver & Doze Mode:** Restricts background data and activity.
   * **KILL USER APPS:** Force closes all user apps to free up memory.
 
-### 🎮 3. Game & Graphics Management
+### 3. Game & Graphics Management
 * **Global Scale:** Overall resolution changer for better performance or screen sensitivity.
 * **Game Manager (A12+):** Games resolution changer.
 * **Renderer (Graphics Engine):** Selects the rendering backend (Default, SkiaGL, SkiaVK).
@@ -48,6 +48,6 @@
 
 ---
 
-## 💡 Support & Community
+## Support & Community
 You can support us by joining our channel:
-👉 [Join Telegram Channel](https://t.me/S_O_S_P/1)
+[Join Telegram Channel](https://t.me/S_O_S_P/1)
