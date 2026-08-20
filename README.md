@@ -15,13 +15,9 @@
 
 ---
 
-## What "Stellar" about?
+## 〄 CMD-Tweaks
 
-**Stellar Tweaks** is a sophisticated scheduler designed to harmonize device performance and efficiency. Built with a **Rust**, it operates silently in the background to manage system resources dynamically. Unlike static scripts, Stellar adapts to your usage patterns in real-time, offering a balance between raw power and battery longevity across various SoC platforms (Snapdragon, MediaTek, Exynos, Unisoc).
-
-## Main Features
-
-Stellar provides granular control over system parameters through its active daemon and modern WebUI interface.
+all-in-one shell script designed to optimize Android devices at the system level. By utilizing Android's built-in `cmd` and `dumpsys` utilities.
 
 ### Core Capabilities
 * **Kernel Tweaking Universal:** Adaptive parameter adjustments compatible with a wide range of kernels and Android versions.
@@ -33,9 +29,9 @@ Stellar provides granular control over system parameters through its active daem
 
 ## Supported Environments
 
-Stellar Tweaks is designed to be versatile, supporting both Rooted and Non-Rooted environments with varying degrees of control.
+CMD-Tweaks is designed to be versatile, supporting both Rooted and Non-Rooted environments.
 
-| Environment | Recommended WebUI |
+| Environment | Recommended |
 | :--- | :--- |
 | **Root** | [KsuWebUI](https://github.com/KOWX712/KsuWebUIStandalone/releases) |
 | **Non-Root** | [AxManager](https://github.com/fahrez182/AxManager/releases) |
