@@ -3,25 +3,17 @@
   
   <br>
 
-  <h1>✨ Stellar Tweaks</h1>
+  <h1>CMD Tweaks</h1>
   <i>A another kernel scheduler for Balancing you need, feel a harmony melody. Stellar Stellar~</i>
   
   <br><br>
 
-  <a href="https://github.com/kanaodnd/Stellar-Tweaks/releases">
-    <img src="https://img.shields.io/github/v/release/kanaodnd/Stellar-Tweaks?style=flat-square&color=7050ff&label=Release">
-  </a>
-  &nbsp;
-  <a href="LICENSE">
-    <img src="https://img.shields.io/badge/License-Apache_2.0-blue?style=flat-square&color=007bff">
-  </a>
-  &nbsp;
-  <a href="https://t.me/hosshi_prjkt">
+  <a href="https://t.me/S_O_S_P">
     <img src="https://img.shields.io/badge/Telegram-Channel-26A5E4?style=flat-square&logo=telegram&logoColor=white">
   </a>
   &nbsp;
-  <a href="https://t.me/hosshi_chat">
-    <img src="https://img.shields.io/badge/Telegram-Group-26A5E4?style=flat-square&logo=telegram&logoColor=white">
+  <a href="https://t.me/HoyoSlave">
+    <img src="https://img.shields.io/badge/Telegram-Account-26A5E4?style=flat-square&logo=telegram&logoColor=white">
   </a>
 
 </div>
