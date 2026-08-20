@@ -17,7 +17,7 @@
 
 ## 〄 CMD-Tweaks
 
-Designed to optimize Android devices at the system and kernel level. By utilizing Android's built-in `cmd` and `dumpsys` utilities.
+Designed to optimize Android devices at the system and kernel levels by utilizing `cmd`, `dumpsys` utility, and adjusting `devfreq` kernel subsystem.
 
 ### WebUI Capabilities
 * **Starts or Stops ./loop.sh:** Auto adapts to daily or gaming use
