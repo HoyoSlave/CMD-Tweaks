@@ -8,7 +8,7 @@
   </a>
   &nbsp;
   <a href="https://t.me/HoyoSlave">
-    <img src="https://img.shields.io/badge/Telegram-Account-26A5E4?style=flat-square&logo=telegram&logoColor=white">
+    <img src="https://img.shields.io/badge/Telegram-Author-26A5E4?style=flat-square&logo=telegram&logoColor=white">
   </a>
 
 </div>
