@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/HoyoSlave/hoyoslave.github.io/refs/heads/main/Pictures/cmd.jpg" width="100%" style="border-radius: 8px;">
-   <img src="https://raw.githubusercontent.com/HoyoSlave/hoyoslave.github.io/refs/heads/main/Pictures/sscmd.jpg" width="100%" style="border-radius: 8px;">
-  
+
+  <img src="https://raw.githubusercontent.com/HoyoSlave/hoyoslave.github.io/refs/heads/main/Pictures/sscmd.jpg" width="100%" style="border-radius: 8px;">
+
   <br>
 
   <a href="https://t.me/S_O_S_P">
@@ -24,10 +24,11 @@ Designed to optimize Android devices at the system and kernel levels by utilizin
 
 CMD-Tweaks supporting both
 
-Rooted and Non-Rooted environments.
+Rooted and Non-Rooted environments
+
+as long as it is Android 11 or above.
 
 | Environment | Recommended |
 | :--- | :--- |
 | **Root** | [KsuWebUI](https://github.com/KOWX712/KsuWebUIStandalone/releases) |
 | **Non-Root** | [AxManager](https://github.com/fahrez182/AxManager/releases) |
-
