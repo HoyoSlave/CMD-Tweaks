@@ -6,9 +6,7 @@
 
   [![Telegram Channel](https://img.shields.io/badge/Channel-blue?logo=telegram&logoColor=white)](https://t.me/S_O_S_P)
   &nbsp;
-  <a href="https://t.me/HoyoSlave">
-    <img src="https://img.shields.io/badge/Telegram-Author-26A5E4?style=flat-square&logo=telegram&logoColor=white">
-  </a>
+  [![Telegram Account](https://img.shields.io/badge/Account-blue?logo=telegram&logoColor=white)](https://t.me/HoyoSlave)
 
 </div>
 
