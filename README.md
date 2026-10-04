@@ -1,6 +1,7 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/HoyoSlave/hoyoslave.github.io/refs/heads/main/Pictures/sscmd.jpg">
+  <img src="https://cdn.statically.io/img/raw.githubusercontent.com/HoyoSlave/hoyoslave.github.io/refs/heads/main/Pictures/sscmd.jpg?round=20" width="600">
+
 
   <br>
 
