@@ -4,9 +4,7 @@
 
   <br>
 
-  <a href="https://t.me/S_O_S_P">
-    <img src="https://img.shields.io/badge/Telegram-Channel-26A5E4?style=flat-square&logo=telegram&logoColor=white">
-  </a>
+  [![Telegram Channel](https://img.shields.io/badge/Channel-blue?logo=telegram&logoColor=white)](https://t.me/S_O_S_P)
   &nbsp;
   <a href="https://t.me/HoyoSlave">
     <img src="https://img.shields.io/badge/Telegram-Author-26A5E4?style=flat-square&logo=telegram&logoColor=white">
