@@ -6,7 +6,8 @@
   [![account](https://img.shields.io/badge/Account-blue?logo=telegram&logoColor=white)](https://t.me/HoyoSlave)
 
 </div>
----
+--
+
 ## 〄 CMD-Tweaks
 
 Designed to optimize Android devices at the system and kernel levels by utilizing the `cmd` and `dumpsys` utilities, and adjusting the `devfreq` kernel subsystem.
