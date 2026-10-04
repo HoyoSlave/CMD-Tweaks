@@ -1,13 +1,13 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/HoyoSlave/hoyoslave.github.io/refs/heads/main/Pictures/sscmd.jpg" width="600">
+  ![image](https://raw.githubusercontent.com/HoyoSlave/hoyoslave.github.io/refs/heads/main/Pictures/sscmd.jpg)
 
 
   <br>
 
-  [![](https://img.shields.io/badge/Channel-blue?logo=telegram&logoColor=white)](https://t.me/S_O_S_P)
+  [![channel](https://img.shields.io/badge/Channel-blue?logo=telegram&logoColor=white)](https://t.me/S_O_S_P)
   &nbsp;
-  [![Telegram Account](https://img.shields.io/badge/Account-blue?logo=telegram&logoColor=white)](https://t.me/HoyoSlave)
+  [![account](https://img.shields.io/badge/Account-blue?logo=telegram&logoColor=white)](https://t.me/HoyoSlave)
 
 </div>
 
