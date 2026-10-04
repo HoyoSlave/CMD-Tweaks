@@ -1,7 +1,7 @@
 <div align="center">
   
   ![image](https://raw.githubusercontent.com/HoyoSlave/hoyoslave.github.io/refs/heads/main/Pictures/sscmd.jpg)
-  [![channel](https://img.shields.io/badge/Channel-white?logo=gnu-bash&logoColor=black)](https://t.me/S_O_S_P) [![account](https://img.shields.io/badge/Account-white?logo=telegram&logoColor=black)](https://t.me/HoyoSlave)
+  [![channel](https://img.shields.io/badge/Channel-white?style=for-the-badge&logo=gnu-bash&logoColor=black)](https://t.me/S_O_S_P) [![account](https://img.shields.io/badge/Account-white?style=for-the-badge&logo=telegram&logoColor=black)](https://t.me/HoyoSlave)
 </div>
 </div>
 
