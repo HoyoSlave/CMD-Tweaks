@@ -4,7 +4,7 @@
   [![channel](https://img.shields.io/badge/Channel-blue?logo=telegram&logoColor=white)](https://t.me/S_O_S_P)
   &nbsp;
   [![account](https://img.shields.io/badge/Account-blue?logo=telegram&logoColor=white)](https://t.me/HoyoSlave)
-  
+
 </div>
 
 ---
