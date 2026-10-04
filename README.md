@@ -1,4 +1,4 @@
-<div align="center">
+##<div align="center">
   
   ![image](https://raw.githubusercontent.com/HoyoSlave/hoyoslave.github.io/refs/heads/main/Pictures/sscmd.jpg)
   [![channel](https://img.shields.io/badge/Channel-blue?logo=telegram&logoColor=white)](https://t.me/S_O_S_P)
@@ -6,7 +6,6 @@
   [![account](https://img.shields.io/badge/Account-blue?logo=telegram&logoColor=white)](https://t.me/HoyoSlave)
 
 </div>
---
 
 ## 〄 CMD-Tweaks
 
